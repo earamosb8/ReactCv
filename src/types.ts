@@ -12,29 +12,32 @@ export interface Skill {
 
 export const PROJECTS: Project[] = [
   {
-    name: "E-Commerce Platform",
-    description: "A full-featured shopping experience built with React and Redux.",
-    url: "https://github.com/earamosb8/react-ecommerce",
-    tech: 'React'
+    name: "React TodoList",
+    description:
+      "A task management application built with React.js, allowing users to manage their to-dos in a simple and intuitive way.",
+    url: "https://earamosb8.github.io/React-TodoList/",
+    tech: "React",
   },
   {
     name: "Weather Dashboard",
     description: "Real-time weather data visualization using OpenWeather API.",
     url: "https://github.com/earamosb8/react-weather",
-    tech: 'React'
+    tech: "React",
   },
   {
-    name: "Admin Panel Pro",
-    description: "Complex enterprise-level dashboard built with Angular and Material UI.",
-    url: "https://github.com/earamosb8/angular-admin",
-    tech: 'Angular'
+    name: "Payment Date Tracker",
+    description:
+      "An Angular web application for registering users and their payment dates. ",
+    url: "https://earamosb8.github.io/Control_payment-Angular/",
+    tech: "Angular",
   },
   {
-    name: "Task Management System",
-    description: "Real-time collaboration tool with drag-and-drop features.",
-    url: "https://github.com/earamosb8/angular-tasks",
-    tech: 'Angular'
-  }
+    name: "Angular TodoList",
+    description:
+      "A task management application built with Angular 16, allowing users to manage their to-dos with a clean and reactive interface.",
+    url: "https://earamosb8.github.io/Angular-TodoList/",
+    tech: "Angular",
+  },
 ];
 
 export const SKILLS: Skill[] = [
@@ -43,7 +46,7 @@ export const SKILLS: Skill[] = [
   { name: "TypeScript", category: "Languages" },
   { name: "JavaScript", category: "Languages" },
   { name: "Tailwind CSS", category: "Design" },
-  { name: "Node.js", category: "Backend" },
-  { name: "SQL / NoSQL", category: "Backend" },
+  { name: "Java", category: "Backend" },
+  { name: "SQL / PlSQL", category: "Backend" },
   { name: "Git", category: "Tools" }
 ];
